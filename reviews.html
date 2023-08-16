@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Reviews - Hidden Gems</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="reviews-section">
+    <h1>WHAT PEOPLE ARE SAYING</h1>
+  </section>
+
+  <section class="reviews-section">
+    <div id="review-cards-container">
+      <!-- Review cards will be dynamically added here using JavaScript -->
+    </div>
+  </section>
+
+  <section class="add-review-section">
+    <h2>Add Your Review</h2>
+    <form id="add-review-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating">
+        <option value="1">★☆☆☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="4">★★★★☆</option>
+        <option value="5">★★★★★</option>
+      </select>
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" required></textarea>
+      <button type="submit">Create</button>
+    </form>
+  </section>
+
+  <footer>
+    <!-- Footer content -->
+    <!-- Just the border at the end -->
+  </footer>
+  
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #FF5733;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #D42C00;
+  }
+  
+  .intro-section {
+    background-color: #FFD700;
+    color: rgb(255, 17, 0);
+  }
+
+
+  .review-card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+  }
+  
+  .review-name {
+    font-weight: bold;
+    color: #06aff1;
+  }
+  
+  .review-date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .review-rating {
+    font-size: 20px;
+    color: #FFD700;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  /* Background colors based on rating */
+  .review-rating-4-5 {
+    background-color: #98FB98;
+  }
+  
+  .review-rating-3 {
+    background-color: #ecec51;
+  }
+  
+  .review-rating-1-2 {
+    background-color: #FF5733;
+    color: white; /* White text color for better contrast */
+  }
+  
+  
+  .hidden-gem {
+    background-color: #D3E6F9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .hidden-gem h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #1e90ff;
+  }
+  
+  .hidden-gem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .newsletter-section {
+    background-color: #FFB6C1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+/* Styles for gem-details sections */
+.gem-details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffe5b4;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .gem-details h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e90ff;
+  }
+  
+  /* Sub-heading styles */
+  .gem-details h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #ff6347;
+  }
+  
+  .gem-details h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fbff00;
+
+  }
+  
+  /* Paragraph styles */
+  .gem-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* List styles */
+  .gem-details ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* List item styles */
+  .gem-details li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Link styles */
+  .gem-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .gem-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .gem-details .suggestions {
+    background-color: #f08cb6;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for directions section */
+  .gem-details .directions {
+    background-color: #00c3ff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for history section */
+  .gem-details .history {
+    background-color: #98fb98;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  
+  /* Link hover styles */
+  .gem-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .reviews-section {
+    background-color: #FFFFE0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .add-review-section {
+    background-color: #98FB98;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .about-section {
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    nav ul {
+        font-family: 'Open Sans', sans-serif;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    nav a {
+        margin: 1rem 0;
+    }
+  
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
